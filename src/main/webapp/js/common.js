@@ -26,6 +26,6 @@ $('#AjaxForm').submit(function (event) {
 });
 function openWindow(url, type, id) {
     const altUrl = url + '?type=' + type + '&id=' + id;
-    const features = 'width=' + String(screen.width / 4) + ',height=' + String(screen.height / 4);
+    const features = 'width=' + String(screen.width / 2) + ',height=' + String(screen.height / 2);
     window.open(altUrl, "auth", features);
 }

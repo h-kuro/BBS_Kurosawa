@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="/bbs/css/style.css" rel="stylesheet" type="text/css"/>
     <script src="/bbs/js/jquery.min.js" defer="defer"></script>
-    <script src="/bbs/js/submit.js" defer="defer"></script>
+    <script src="/bbs/js/common.js" defer="defer"></script>
 </head>
 
 <body>
