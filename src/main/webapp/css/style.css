@@ -1,0 +1,99 @@
+body {
+    background: #eeeeee;
+    font-family: Meiryo;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+}
+
+fieldset {
+    border: 0 solid;
+    padding: 0;
+}
+
+.Color {
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+
+.Post {
+    margin: 1%;
+    padding: 1%;
+}
+
+#PostList {
+    width: 50%;
+    text-align: left;
+    padding: 0%;
+    margin: 0px auto;
+}
+
+div#PostList {
+    text-align: right;
+}
+
+#Reload {
+    width: 100%;
+    padding: 0%;
+    margin: 0 0 3%;
+}
+
+#PostForm {
+    width: 30%;
+    padding: 0%;
+    margin: 1% auto;
+}
+
+.FormStyle {
+    margin: 3%;
+}
+
+.FormStyle th {
+    text-align: right;
+    vertical-align: top;
+    width: 30%;
+}
+
+.FormStyle td {
+    text-align: right;
+    width: 70%;
+}
+
+.FormStyle textarea, input[type="text"], input[type="password"] {
+    resize: none;
+    width: 100%;
+}
+
+.FormStyle label {
+    vertical-align: top;
+}
+
+.ButtonStyle {
+    margin: 2%;
+}
+
+.Common {
+    width: 50%;
+    margin: 0px auto;
+}
+
+#Auth {
+    padding: 3% 1% 1%;
+    margin-top: 1%;
+}
+
+Form#Auth {
+    margin: 0%;
+}
+
+#Auth label {
+    text-align: right;
+    width: 30%;
+}
+
+#Auth input[type=password] {
+    width: 70%;
+}
