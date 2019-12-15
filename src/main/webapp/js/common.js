@@ -17,8 +17,6 @@ $('#AjaxForm').submit(function (event) {
             $form[0].reset();
             $("#result").append(result);
             window.location.reload();
-            var PostForm = $('#PostForm').offset().top;
-            $('html, body').animate({scrollTop: PostForm});
         },
         error: function (xhr, textStatus, error) {
         }
@@ -26,6 +24,11 @@ $('#AjaxForm').submit(function (event) {
 });
 function openWindow(url, type, id) {
     const altUrl = url + '?type=' + type + '&id=' + id;
-    const features = 'width=' + String(screen.width / 2) + ',height=' + String(screen.height / 2);
+    var width = screen.width / 2;
+    var height = screen.height / 2;
+    var x = (screen.availWidth - width ) / 2;
+    var y = (screen.availHeight - height) / 2;
+    const features = 'width=' + width + ',height=' + height
+        + ",top=" + y +  ",left=" + x;
     window.open(altUrl, "auth", features);
 }
